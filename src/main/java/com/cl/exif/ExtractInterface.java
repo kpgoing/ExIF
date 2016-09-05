@@ -1,4 +1,4 @@
-package com.company;
+package com.cl.exif;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -11,5 +11,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
 public @interface ExtractInterface {
-    public String value();
+    String value();
 }

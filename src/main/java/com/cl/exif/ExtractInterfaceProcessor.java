@@ -1,4 +1,4 @@
-package com.company;
+package com.cl.exif;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
@@ -15,7 +15,7 @@ import java.util.Set;
 /**
  * Created by xubowei on 16/9/4.
  */
-@SupportedAnnotationTypes("com.company.ExtractInterface")
+@SupportedAnnotationTypes("com.cl.exif.ExtractInterface")
 @SupportedSourceVersion(SourceVersion.RELEASE_6)
 public class ExtractInterfaceProcessor extends AbstractProcessor {
 
